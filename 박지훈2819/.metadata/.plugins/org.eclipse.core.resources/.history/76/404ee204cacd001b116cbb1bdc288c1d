@@ -1,0 +1,11 @@
+package ch2;
+
+public class c2 {
+
+	public static void main(String[] args) {
+		char select = 'y';
+		char select2 = 'Y';
+		System.out.println(select=='y'&& select2 =='Y');
+	}
+
+}

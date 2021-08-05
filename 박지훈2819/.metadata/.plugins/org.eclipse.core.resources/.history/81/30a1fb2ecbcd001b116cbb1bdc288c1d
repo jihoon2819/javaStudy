@@ -1,0 +1,18 @@
+package ch2;
+/**
+ * 
+ *삼항연산자
+ * 조건식이 참이면 : 콜론앞의 결과를 반환
+ * 조거식이 거짓이면: 콜돈뒤의 결과를 반환
+ */
+public class operationEx3 {
+
+	public static void main(String[] args) {
+		char select = 'y';
+		boolean trueFalse = false;
+		
+		trueFalse = (select == 'y' ? true: false);
+		System.out.println(trueFalse);
+	}
+
+}
